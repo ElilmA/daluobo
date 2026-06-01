@@ -12,6 +12,12 @@
   <a href="https://daluobo.cc.cd/pricing?utm_source=github&utm_medium=readme&utm_campaign=show_readme">查看模型价格</a>
   ·
   <a href="https://daluobo.cc.cd/console?utm_source=github&utm_medium=readme&utm_campaign=show_readme">打开控制台</a>
+  ·
+  <a href="https://helperx.cc.cd"><strong>访问公益代理 HelperX 官网</strong></a>
+  ·
+  <a href="dist/helperx-chrome-1.0.1.zip"><strong>下载 Chrome 插件 ZIP</strong></a>
+  ·
+  <a href="browser-extension/README.md"><strong>查看插件安装说明</strong></a>
 </p>
 
 ## 这是什么
