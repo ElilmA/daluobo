@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://daluobo.cc.cd/?utm_source=github&utm_medium=readme&utm_campaign=show_readme">
-    <img src="https://daluobo.cc.cd/daluobo-logo.png" alt="大萝卜 Logo" width="96" height="96" />
+    <img src="./assets/daluobo-logo.png" alt="大萝卜 Logo" width="96" height="96" />
   </a>
 </p>
 
