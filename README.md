@@ -4,7 +4,7 @@
   </a>
 </p>
 
-<h1 align="center">大萝卜 AI 模型中转站</h1>
+<h1 align="center">大萝卜公益 AI 模型中转站</h1>
 
 <p align="center">
   <a href="https://daluobo.cc.cd/?utm_source=github&utm_medium=readme&utm_campaign=show_readme">进入官网</a>
@@ -16,7 +16,7 @@
 
 ## 这是什么
 
-大萝卜是一个面向开发者和 AI 工具用户的 OpenAI 兼容 API 中转站。你可以把它作为 Codex、Cherry Studio、Lobe Chat、OpenCat、DeepChat、OpenAI SDK、Continue、VS Code 插件等客户端的 `base_url`，用统一的 API Key 调用不同模型。
+大萝卜是一个面向开发者和 AI 工具用户的 OpenAI 兼容 API 公益中转站。你可以把它作为 Codex、Cherry Studio、Lobe Chat、OpenCat、DeepChat、OpenAI SDK、Continue、VS Code 插件等客户端的 `base_url`，用统一的 API Key 调用不同模型。
 
 核心地址：
 
