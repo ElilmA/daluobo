@@ -33,86 +33,17 @@ Codex 接入: https://daluobo.cc.cd/codex
 Logo: https://daluobo.cc.cd/daluobo-logo.png
 ```
 
-## 适合谁
+## 红包广场
 
-- 想找 OpenAI Compatible API、OpenAI 兼容接口、AI API 中转站的用户。
-- 想把 Codex CLI / Codex Agent 接入自定义 `base_url` 的开发者。
-- 想用 Cherry Studio、Lobe Chat、OpenCat、DeepChat 等客户端配置统一 API Key 的用户。
-- 想用支付宝小额充值、按量使用、查看日志和余额的个人用户。
-- 想在本地项目目录里继续让 Codex 读文件、跑命令、调浏览器，而不是上传整个项目到云端的开发者。
+大萝卜支持额度红包和口令红包。管理员或用户可以把自己的额度发成红包，用于群内体验、教程活动、新用户试用。
 
-## 主要特性
-
-- OpenAI 兼容 API：统一使用 `https://api.daluobo.cc.cd/v1`。
-- Codex 本地接入：配置一次，继续在本地运行 `codex` 或 `codex -p daluobo`。
-- 本地文件边界清晰：文件读取、Shell、浏览器调试和 MCP 仍发生在你的电脑上。
-- 支付宝充值：适合国内用户小额体验和持续按量使用。
-- 模型广场：查看可用模型、分组和价格。
-- 用量日志：控制台查看 API 调用和额度消耗。
-- 红包广场：支持额度红包和口令红包，适合社群活动和新用户体验。
-
-## 快速开始
-
-1. 打开控制台并注册：
+入口：
 
 ```text
-https://daluobo.cc.cd/console
+https://daluobo.cc.cd/console/activity/redpacket
 ```
 
-2. 创建 API Key。
-
-3. 使用 OpenAI 兼容地址：
-
-```text
-https://api.daluobo.cc.cd/v1
-```
-
-4. 用最小请求测试：
-
-```bash
-curl https://api.daluobo.cc.cd/v1/models \
-  -H "Authorization: Bearer YOUR_API_KEY"
-```
-
-## Codex 接入
-
-如果你正在搜索这些问题：
-
-- Codex 自定义 base_url 怎么配置
-- Codex OpenAI compatible API 怎么用
-- Codex 如何使用中转 API
-- Codex 读取本地项目文件但模型走自定义 API
-- Codex 配置 OpenAI 兼容接口
-
-可以直接看这里：
-
-```text
-https://daluobo.cc.cd/codex
-```
-
-推荐配置形态：
-
-```toml
-model_provider = "daluobo"
-model = "gpt-5.5"
-disable_response_storage = true
-model_reasoning_effort = "medium"
-
-[model_providers.daluobo]
-name = "daluobo"
-wire_api = "responses"
-requires_openai_auth = false
-env_key = "DALUOBO_API_KEY"
-base_url = "https://api.daluobo.cc.cd/v1"
-```
-
-使用方式：
-
-```bash
-codex -p daluobo
-```
-
-## 常见客户端关键词
+## 常见端关键词
 
 这些客户端通常可以配置 OpenAI 兼容接口、API Key 和 Base URL：
 
@@ -163,15 +94,6 @@ gpt-image-2 API
 https://daluobo.cc.cd/pricing
 ```
 
-## 红包广场
-
-大萝卜支持额度红包和口令红包。管理员或用户可以把自己的额度发成红包，用于群内体验、教程活动、新用户试用和社区裂变。
-
-入口：
-
-```text
-https://daluobo.cc.cd/console/activity/redpacket
-```
 
 ## 注意事项
 
@@ -186,12 +108,6 @@ https://daluobo.cc.cd/console/activity/redpacket
 
 ```text
 https://daluobo.cc.cd/?utm_source=github&utm_medium=readme&utm_campaign=show_readme
-```
-
-Codex 接入教程：
-
-```text
-https://daluobo.cc.cd/codex?utm_source=github&utm_medium=readme&utm_campaign=show_readme
 ```
 
 模型价格：
